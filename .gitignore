@@ -5,3 +5,5 @@
 # Name of your virtuan env
 .vEnv
 *pyc
+media
+.env
