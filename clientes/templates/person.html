@@ -1,17 +1,10 @@
-{% load  static %}
+{% extends 'index.html'%}
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'style.css' %}">
-    <title>Lista de pessoas</title>
-</head>
+{% block title %} Lista de clientes {% endblock %}
 
-<body>
+{% block main %}
 
+    <p>Olá {{ user.username }}</p>
     <a href="{% url 'logout' %}">Sair</a>
 
     <ul>
@@ -25,5 +18,4 @@
 
     <a href="{% url 'person_new' %}">Cadastrar</a>
 
-</body>
-</html>
+{% endblock %}
