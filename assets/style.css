@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+/* Corpo do site */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: #eceffc;
+}
+
+/* pagina inicial == HOME ==*/
+#header{
+    width: 100%;
+    height: 80px;
+}
+
+#header h1{
+    font-size: 54px;
+    text-align: center;
+    top: -80px;
+    padding-top: 10px;
+}
+
+#sub-header{
+    width: 100%;
+    height: 70px;
+}
+
+#sub-header h3{
+    font-size: 24px;
+    text-align: center;
+}
+
+#button {
+    background-color: #7a16ac;
+    border: 0;
+    border-radius: 28px;
+    display: block;
+    font-size: 16px;
+    height: 32px;
+    margin: 0 auto;
+    max-width: 100px;
+    outline: none !important;
+    overflow: hidden;
+    position: relative;
+    top: 375px;
+    transition: box-shadow 150ms;
+    width: 100%;
+    color:#eceffc;
+}
+#button:hover{
+    background-color: #560b7c;
+}
+
+/* pagina login */
+.button-container {
+    height: 100%;
+    left: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.button-container a{
+    color: #eceffc;
+    text-decoration: none;
+}
+.button {
+    background-color: #7a16ac;
+    border: 0;
+    border-radius: 28px;
+    display: block;
+    font-size: 16px;
+    height: 32px;
+    margin: 0 auto;
+    max-width: 100px;
+    outline: none !important;
+    overflow: hidden;
+    position: relative;
+    top: 375px;
+    transition: box-shadow 150ms;
+    width: 100%;
+    color:#eceffc;
+}
+  
+.button:active {
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.3);
+}
+  
+ .button.animate {
+    opacity: 0;
+    transform: translateY(-150px) scale(20);
+    transition: width 250ms 200ms, transform 350ms 1350ms, opacity 350ms 1550ms;
+    width: 56px;
+}
+.button:hover{
+    background-color: #560b7c;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+      0 1px 1px rgba(128, 128, 128, 0.155),
+      0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+      0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+      0 12px 12px rgba(128, 128, 128, 0.35);
+
+}
+
+
+
+#footer{
+    position: absolute;
+    text-align: center;
+    margin-left: 150px;
+    top: 35rem;
+}
+
+#footer p{
+    
+    left: 30px;
+}
+#footer a{
+    color: #560b7c;
+    text-decoration: none;
+    text-align: center;
+}
+#footer a:hover{
+    color: #7a16ac;
+}
