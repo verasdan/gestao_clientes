@@ -1,19 +1,34 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-    <h1>Seja Bem Vindo!</h1>
+{% extends 'index.html'%}
 
-    {% if user.is_authenticated %}
-        <p>Olá {{ user.username }}</p>
-        <a href="{% url 'logout' %}">Sair</a>
-    {% else %}
-        <a href="{% url 'login' %}">Entrar</a>
-    {% endif %}
-</body>
-</html>
+{% block title %} Seja bem vindo! {% endblock %}
+
+    {% block main %}
+
+        <div class="">
+            <div id="header">
+                <h1>Seja Bem Vindo!</h1>
+            </div>
+
+            <div id="sub-header">
+                <h3>Faça o login para ter acesso à lista de clientes</h3>
+            </div>
+    
+            {% if user.is_authenticated %}
+                <div id="btn_logout">
+                    <a href="{% url 'logout' %}">Sair</a>
+                    <a href="{% url 'login' %}">Acessar Lista</a>
+                </div>
+                
+            {% else %}
+                <div class="button-container">
+                    <button id="button" type="submit"><a href="{% url 'login' %}">Acessar</a></button>
+                </div>
+            {% endif %}
+
+            <div id="footer">
+                <p>Desenvolvido por <a href="https://github.com/verasdan">Dan Veras</a>.</p>
+            </div>
+        
+        </div>
+        {% endblock %}
+        
