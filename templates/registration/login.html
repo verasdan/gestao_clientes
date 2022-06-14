@@ -1,6 +1,18 @@
-<h2>Login</h2>
-<form method="POST">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Login</button>
-</form>
+{% extends 'index.html'%}
+
+{% block title %} Seja bem vindo! {% endblock %}
+
+    {% block main %}
+        <div id="login-form">
+            <h2>Área de login</h2>
+            <form method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <div class="button-container">
+                    <button class="button" type="submit">Login</button>
+                </div>
+                
+            </form>
+        </div>
+
+    {% endblock %}
