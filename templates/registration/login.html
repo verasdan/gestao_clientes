@@ -3,7 +3,7 @@
 {% block title %} Seja bem vindo! {% endblock %}
 
     {% block main %}
-        <div id="login-form">
+        <div class="login-box">
             <h2>Área de login</h2>
             <form method="POST">
                 {% csrf_token %}
@@ -13,6 +13,8 @@
                 </div>
                 
             </form>
-        </div>
+        </div>          
 
     {% endblock %}
+
+    

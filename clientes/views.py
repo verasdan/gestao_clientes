@@ -23,13 +23,13 @@ def persons_new(request):
 @login_required
 def persons_update(request, id):
     person = get_object_or_404(Person, pk=id)
-    form = PersonForm(request.POST or None, request.FILES or None, instance=person)
+    form = PersonForm(request.POST, instance=person)
 
     if form.is_valid():
-        form.update()
+        form.save()
         return redirect('person_list')
-
-    return render(request, 'person_form.html', {'form': form})
+    else:
+        return render(request, 'person_form.html', {'form': form})
 
 
 @login_required
