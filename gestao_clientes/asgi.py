@@ -17,5 +17,5 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gestao_clientes.settings')
 
 application = get_asgi_application()
 application = MyWSGIApp()
-application = WhiteNoise(application, root="/path/to/static/files")
-application.add_files("/path/to/more/static/files", prefix="more-files/")
+application = WhiteNoise(application, root="staticfiles")
+application.add_files("staticfiles", prefix="more-files/")
