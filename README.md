@@ -20,10 +20,9 @@
 * [Layouts](#-layout)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Contribuidores](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+* [Autor](#-autor)
 * [Licença](#licença)
-* [Conclusão](#conclusão)
+
 
 
 ## 💻 Descrição do projeto
