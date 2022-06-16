@@ -6,7 +6,6 @@
   <a href="https://github.com/verasdan/gestao_clientes/commits/master">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/verasdan/gestao_clientes">
   </a>
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   <img src="https://img.shields.io/github/contributors/verasdan/gestao_clientes?color=brightgreen"/>
   </a>
   <a href="https://github.com/verasdan/gestao_clientes/stargazers">
@@ -17,25 +16,25 @@
 ---
 
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout">Layout</a> • 
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-contribuidores">Contribuidores</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
+  <a href="#-sobre-o-projeto">Sobre</a> •
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-layout">Layout</a> • 
+  <a href="#-como-executar-o-projeto">Como executar</a> • 
+  <a href="#-tecnologias">Tecnologias</a> • 
+  <a href="#-contribuidores">Contribuidores</a> • 
+  <a href="#-autor">Autor</a> • 
+  <a href="#user-content--licença">Licença</a>
 </p>
 
 ## Índice 
 
 * [Sobre](#-sobre-o-projeto)
-* [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#status-do-Projeto)
 * [Funcionalidades](#-funcionalidades)
+* [Layouts](#-layout)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
+* [Contribuidores](#pessoas-contribuidoras)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
 * [Licença](#licença)
 * [Conclusão](#conclusão)
@@ -47,7 +46,7 @@ Projeto desenvolvido durante o curso **Desenvolva uma aplicação com Django 2.0
 Este projeto é uma experiência online com aprendizado aplicado e com desafios a serem alcançados, essa é só uma fase do desenvolvimento.
 
 ---
-## STATUS
+## :heavy_check_mark: Status
 <br>
 
 > Status do Projeto: Concluido :heavy_check_mark:
@@ -85,21 +84,6 @@ Este projeto é uma experiência online com aprendizado aplicado e com desafios 
 
 ## 🎨 Layout
 
-O layout da aplicação está disponível no Figma:
-
-<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
-  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
-
-
-### Mobile
-
-<p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="200px">
-
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
-</p>
-
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
@@ -111,13 +95,6 @@ O layout da aplicação está disponível no Figma:
 ---
 
 ## 🚀 Como executar o projeto
-
-Este projeto é divido em três partes:
-1. Backend (pasta server) 
-2. Frontend (pasta web)
-3. Mobile (pasta mobile)
-
-💡Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
 
 ### Pré-requisitos
 
@@ -241,16 +218,7 @@ Rails 4 ou 5
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Dan Veras 👋🏽 [Entre em contato!](https://www.linkedin.com/in/verasdanilo/)
-
 ---
-
-
-
-
-
-
-
 
 <p align="center">
   
