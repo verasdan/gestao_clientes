@@ -1,26 +1,20 @@
-MODELO
+<h1 align="center"> Gestão Clientes </h1>
 
 <p align="center">
    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
    <img src="https://img.shields.io/github/repo-size/verasdan/gestao_clientes?color=brightgreen"/>
-  <a href="https://www.twitter.com/veras_dan/">
-  <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%veras_dan%2veras_dan">
-  </a>
   <a href="https://github.com/verasdan/gestao_clientes/commits/master">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/verasdan/gestao_clientes">
   </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/verasdan/gestao_clientes/stargazers">
-  <img alt="Stargazers" src="https://img.shields.io/github/stars/verasdan/gestao_clientes?style=social">
   <img src="https://img.shields.io/github/contributors/verasdan/gestao_clientes?color=brightgreen"/>
   </a>
- 
+  <a href="https://github.com/verasdan/gestao_clientes/stargazers">
+  <img alt="Stargazers" src="https://img.shields.io/github/stars/verasdan/gestao_clientes?style=social">
+  </a>
 </p>
 
-
-### STATUS
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
+---
 
 
 <p align="center">
@@ -36,12 +30,10 @@ MODELO
 
 ## Índice 
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Badges](#badges)
-* [Índice](#índice)
+* [Sobre](#-sobre-o-projeto)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#status-do-Projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+* [Funcionalidades](#-funcionalidades)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Pessoas Contribuidoras](#pessoas-contribuidoras)
@@ -59,8 +51,23 @@ Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rockets
 O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
 
 ---
+## STATUS
+<br>
+
+> Status do Projeto: Concluido :heavy_check_mark:
+
+
+## Deploy da Aplicação com Heroku: :dash:
+
+> https://client-management-project.herokuapp.com/
+
+<br>
+
+---
 
 ## ⚙️ Funcionalidades
+
+<br>
 
 - [x] Empresas ou entidades podem se cadastrar na plataforma web enviando:
   - [x] uma imagem do ponto de coleta
