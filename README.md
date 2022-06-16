@@ -5,8 +5,7 @@
   <img src="https://img.shields.io/static/v1?label=Heroku&message=deploy&color=blue&style=for-the-badge&logo=heroku"/>
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
   <img src="http://img.shields.io/static/v1?label=Python&message=3.10.5&color=blue&style=for-the-badge&logo=Python"/>
-  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 </p>
 
 ---
@@ -17,13 +16,10 @@
 * [Descrição do Projeto](#descrição-do-Projeto)
 * [Funcionalidades](#-funcionalidades)
 * [Deploy da Aplicação](#deploy-da-aplicação-dash)
-* [Layouts](#-layout)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Autor](#-autor)
 * [Licença](#licença)
-
-
 
 ## 💻 Descrição do projeto
 
@@ -35,7 +31,6 @@ Este projeto é uma experiência online com aprendizado aplicado e com desafios 
 <br>
 
 > Status do Projeto: Concluido :heavy_check_mark:
-
 
 ## Deploy da Aplicação :dash:
 
@@ -49,21 +44,14 @@ Este projeto é uma experiência online com aprendizado aplicado e com desafios 
 
 <br>
 
-- [x] Empresas ou entidades podem se cadastrar na plataforma web enviando:
-  - [x] uma imagem do ponto de coleta
-  - [x] nome da entidade, email e whatsapp
-  - [x] e o endereço para que ele possa aparecer no mapa
-  - [x] além de selecionar um ou mais ítens de coleta: 
-    - lâmpadas
-    - pilhas e baterias
-    - papéis e papelão
-    - resíduos eletrônicos
-    - resíduos orgânicos
-    - óleo de cozinha
-
-- [x] Os usuários tem acesso ao aplicativo móvel, onde podem:
-  - [x] navegar pelo mapa para ver as instituições cadastradas
-  - [x] entrar em contato com a entidade através do E-mail ou do WhatsApp
+- [x] Criação do projeto:
+  - [x] RestFul
+    - [x] Criar
+    - [ ] Editar
+    - [x] Deletar
+  - [x] Esilização da aplicação
+  - [x] Novas funcionalidades:
+    - [ ] Produtos 
 
 ---
 
@@ -111,9 +99,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Website**  ([Python](https://www.python.org/)  +  [Django](https://www.djangoproject.com/))
 
-
 <br>
-
 
 ---
 
@@ -145,4 +131,3 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
 ---
-
